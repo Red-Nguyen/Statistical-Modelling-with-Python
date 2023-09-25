@@ -21,11 +21,9 @@
 ### Step 3: 
 	- Import file .csv from step 1, 2 files .csv from step 2.
 	- Cleaning 3 dataframes again before joining to make sure there is no null and no outlier.
-	- I chose to join dataframe of Yelp and CitiBikes together (used id of station) because:
-		Yelp is more location-specific than Foursquare as I demonstrated in part 2.
-        POIs of Yelp are more specific than Foursquare.
+	- I chose to join dataframe of Yelp and CitiBikes together (used id of station) because: Yelp is more location-specific than Foursquare as I demonstrated in part 2. POIs of Yelp are more specific than Foursquare.
 	- Use data visualization to explore the data. The purpose is to understand the basic relationship between columns.
-	- Put all my results in a SQLite3 database. 
+	- Put all my results in a SQLite3 database: 
 		I created a new database, there are 2 tables in my database. 1 table is dataframe joint from Yelp& CitiBikies, and 1 table is dataframe of Foursquare.
 		Query to check the value in the new database to make sure no missing data. 
 		Query to join table 1 & table 2.
